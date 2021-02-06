@@ -4,7 +4,7 @@
 import numpy as np
 from scipy.stats import t
 
-class LinearRegression():
+class LinearRegression:
 
     def __init__(self):
         # Initialize weights and Results
