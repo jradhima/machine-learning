@@ -4,7 +4,8 @@ This is a collection of simple algorithms used in machine learning. It's main pu
 
 Right now, the following models are included:
 
-  - A Linear regression object
-  - A K-nearest-neighbors classifier
+  - A Linear Regression object
+  - A Logistic Regression Classifier object
+  - A K-nearest-neighbors Classifier object
 
 All objects work with numpy arrays as inputs. Models follow scikit-learn's logic, with .fit() and .predict() methods.

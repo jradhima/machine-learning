@@ -171,7 +171,7 @@ class LogReg:
     def calculate_probabilities(self, X):
         return 1 / (1 + np.exp(-X @ self.__betas))
 
-    def score(self, X, y=None):
+    def predict(self, X, y=None):
         
         # Calculate probabilities
         X_appended = np.hstack((np.ones((X.shape[0], 1)), X))
